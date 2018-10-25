@@ -1,6 +1,6 @@
 import itertools
 from collections import defaultdict
-f=open("C:/Users/rasdhar/Desktop/Python Training/43/unixdict.txt")
+f=open("C:/Users/..../unixdict.txt")
 words=f.read().split("\n")
 store=defaultdict(list)
 def check_anagrams(a,b):
