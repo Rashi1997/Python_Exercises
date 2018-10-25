@@ -1,14 +1,14 @@
 
-with open("C:/Users/rasdhar/Desktop/Python Training/43/Salutations.txt") as sal:
+with open("C:/Users/..../Salutations.txt") as sal:
     salutations=sal.read().split("\n")
 sal.close()
-loc="C:/Users/rasdhar/Desktop/Python Training/43/sentence.txt"
+loc="C:/Users/..../sentence.txt"
 with open(loc) as f:
     para=f.read()
 f.close()
 words=para.split(" ")
 #print (salutations)
-result=open("C:/Users/rasdhar/Desktop/Python Training/43/output.txt",'w')
+result=open("C:/Users/..../output.txt",'w')
 for word, next_word in zip(words[:-1], words[1:]):
     if(word in salutations):
         result.write(word+" ")
