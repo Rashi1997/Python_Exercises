@@ -1,3 +1,6 @@
+"""Write a program that will calculate the average word length of a text stored in a file (i.e the sum of all the lengths of the word 
+tokens in the text, divided by the number of word tokens)."""
+
 import re
 p=open("C:/Users/rasdhar/Desktop/Python Training/38/punctuations.txt")
 punct=list(p.read())
